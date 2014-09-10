@@ -13,6 +13,8 @@
 		AB8E2ABE19BFB91300ED6E89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8E2ABD19BFB91300ED6E89 /* Images.xcassets */; };
 		AB8E2AC119BFB91300ED6E89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8E2ABF19BFB91300ED6E89 /* LaunchScreen.xib */; };
 		AB8E2ACD19BFB91300ED6E89 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E2ACC19BFB91300ED6E89 /* PostcardTests.swift */; };
+		AB8E2AD719BFC12800ED6E89 /* Omsk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8E2AD619BFC12800ED6E89 /* Omsk.jpg */; };
+		ABBEAACC19C05F9C008B7D9F /* Russian Stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABBEAACB19C05F9C008B7D9F /* Russian Stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AB8E2AC619BFB91300ED6E89 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8E2ACB19BFB91300ED6E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8E2ACC19BFB91300ED6E89 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		AB8E2AD619BFC12800ED6E89 /* Omsk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Omsk.jpg; sourceTree = "<group>"; };
+		ABBEAACB19C05F9C008B7D9F /* Russian Stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Russian Stamp.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		AB8E2AB419BFB91300ED6E89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABBEAACB19C05F9C008B7D9F /* Russian Stamp.jpg */,
+				AB8E2AD619BFC12800ED6E89 /* Omsk.jpg */,
 				AB8E2AB519BFB91300ED6E89 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8E2ABC19BFB91300ED6E89 /* Main.storyboard in Resources */,
+				AB8E2AD719BFC12800ED6E89 /* Omsk.jpg in Resources */,
+				ABBEAACC19C05F9C008B7D9F /* Russian Stamp.jpg in Resources */,
 				AB8E2AC119BFB91300ED6E89 /* LaunchScreen.xib in Resources */,
 				AB8E2ABE19BFB91300ED6E89 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +413,7 @@
 				AB8E2AD219BFB91300ED6E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB8E2AD319BFB91300ED6E89 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				AB8E2AD519BFB91300ED6E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
